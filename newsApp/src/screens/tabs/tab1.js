@@ -72,7 +72,7 @@ export default class Tab1 extends React.Component {
         <List dataArray={this.state.data}
           renderRow={(item) => {
             return (
-              <ListItem thumbnail onPress={this.handleItemDataOnPress}>
+              <ListItem thumbnail >
       <Left>
         <Thumbnail square source={{ uri: item.urlToImage != null ? item.urlToImage : 'https://image.shutterstock.com/image-vector/breaking-news-live-on-world-260nw-589076237.jpg' }} />
       </Left>
